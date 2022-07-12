@@ -1,0 +1,26 @@
+
+.Photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Landscape{
+    margin: 3%  ;
+    max-width: 44%;
+}
+.Portrait {
+    margin: 30px;
+    max-width: 30%;
+}
+
+.Magazines{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Magazines > img {
+    padding: 20px;
+    width: 400px;
+}
